@@ -38,10 +38,10 @@ export default function Contact() {
     try {
       if (formRef.current) {
         const result = await emailjs.sendForm(
-          'service_p6cf5yc', // Your EmailJS service ID (already set)
-          'template_ldnf8e5', // Replace with your template ID from EmailJS dashboard
+          'service_40t035m', // Your EmailJS service ID (already set)
+          'template_uz7re2p', // Replace with your template ID from EmailJS dashboard
           formRef.current,
-          '_SkVAp17BJ_Fmojdh' // Replace with your public key from EmailJS dashboard (Account > API Keys)
+          'o3Qdt-PQjjhDSnxec' // Replace with your public key from EmailJS dashboard (Account > API Keys)
         );
         
         console.log('Email successfully sent!', result.text);
