@@ -64,7 +64,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Contact | Saalim Shaikh Portfolio</title>
+        <title>Contact | Abdullah Fazal Portfolio</title>
         <meta name="description" content="Get in touch with Piyush Chauhan for collaboration opportunities or to discuss your project ideas." />
       </Head>
       <main className="flex flex-col min-h-screen pt-20">
@@ -107,7 +107,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-lg">Phone</h3>
-                      <p className="text-gray-700">+91 9016730106</p>
+                      <p className="text-gray-700">+91 9327371663</p>
                     </div>
                   </div>
                   

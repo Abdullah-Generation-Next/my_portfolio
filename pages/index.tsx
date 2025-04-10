@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Saalim Shaikh | Portfolio</title>
+        <title>Abdullah Fazal | Portfolio</title>
         <meta name="description" content="ReactJS Developer Portfolio for Saalim Shaikh" />
       </Head>
       <main className="flex flex-col min-h-screen pt-20">
@@ -16,10 +16,10 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 mb-10 md:mb-0">
                 <h1 className="text-4xl lg:text-6xl font-bold mb-4">
-                  Hi, I'm <span className="text-yellow-300">Saalim Shaikh</span>
+                  Hi, I'm <span className="text-yellow-300">Abdullah Fazal</span>
                 </h1>
                 <h2 className="text-2xl lg:text-3xl mb-6">
-                  ReactJS Developer
+                  Flutter Developer
                 </h2>
                 <p className="text-lg mb-8">
                   Passionate about building scalable web applications using ReactJS and the MERN stack, with a strong focus on performance, user experience, and modern web technologies. Constantly exploring new tools and best practices to enhance development efficiency and scalability.                </p>

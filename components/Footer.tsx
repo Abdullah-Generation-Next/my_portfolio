@@ -15,7 +15,7 @@ const Footer = () => {
               <div className="w-10 h-10 mr-2 rounded-full bg-indigo-600 flex items-center justify-center text-white">
                 SS
               </div>
-              <span className="font-bold text-xl">Saalim Shaikh</span>
+              <span className="font-bold text-xl">Abdullah Fazal</span>
             </Link>
             <p className="text-gray-400 mb-6">
               Full-stack developer specializing in creating modern web applications and digital experiences.
@@ -86,7 +86,7 @@ const Footer = () => {
                   <svg className="w-5 h-5 mr-2 mt-1" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                   </svg>
-                  <span>+91 9016730106</span>
+                  <span>+91 9327371663</span>
                 </span>
               </li>
               <li className="text-gray-400">
@@ -103,7 +103,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-10 pt-8">
           <p className="text-center text-gray-400">
-            &copy; {currentYear} Saalim Shaikh. All rights reserved.
+            &copy; {currentYear} Abdullah Fazal. All rights reserved.
           </p>
           <p className="text-center text-gray-500 text-sm mt-2">
             Designed and built with Next.js and TailwindCSS

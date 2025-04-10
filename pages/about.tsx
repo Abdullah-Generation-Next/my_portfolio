@@ -55,7 +55,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About Me | Saalim Shaikh Portfolio</title>
+        <title>About Me | Abdullah Fazal Portfolio</title>
         <meta name="description" content="Learn more about Piyush Chauhan, a ReactJS developer with experience in modern web technologies." />
       </Head>
       <main className="flex flex-col min-h-screen pt-20">
