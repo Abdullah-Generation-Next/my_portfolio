@@ -7,16 +7,16 @@ export default function Home() {
     <>
       <Head>
         <title>Abdullah Fazal | Portfolio</title>
-        <meta name="description" content="ReactJS Developer Portfolio for Saalim Shaikh" />
+        <meta name="description" content="Flutter Developer Portfolio for Abdullah Fazal" />
       </Head>
       <main className="flex flex-col min-h-screen pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-blue-800 to-indigo-900 text-white py-20">
+        <section className="bg-emerald-600 text-gray-100 py-20">
           <div className="container mx-auto px-6">
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 mb-10 md:mb-0">
                 <h1 className="text-4xl lg:text-6xl font-bold mb-4">
-                  Hi, I'm <span className="text-yellow-300">Abdullah Fazal</span>
+                  Hi, I'm <span className="text-gray-400">Abdullah Fazal</span>
                 </h1>
                 <h2 className="text-2xl lg:text-3xl mb-6">
                   Flutter Developer
@@ -26,26 +26,26 @@ export default function Home() {
                 <div className="flex space-x-4">
                   <Link
                     href="/contact"
-                    className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-6 py-3 rounded-md font-semibold transition duration-300"
+                    className="bg-gray-100 hover:bg-gray-50 text-emerald-700 px-6 py-3 rounded-md font-semibold transition duration-300"
                   >
                     Contact Me
                   </Link>
-                  <Link
+                  {/* <Link
                     href="/projects"
                     className="border-2 border-white hover:bg-white hover:text-indigo-900 text-white px-6 py-3 rounded-md font-semibold transition duration-300"
                   >
                     View Projects
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="md:w-1/2">
                 <div className="w-64 h-64 mx-auto rounded-full border-4 border-white shadow-xl overflow-hidden">
                   <Image
-                    src="/images/profile.jpg"
-                    alt="Piyush Chauhan"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEX///9fyfhax/gxufYHW50EWZwDWJxPxfjz+/4IXJ5hhrSi3ftVxvjd5e4AVJrX8P3n9v5HvveG0/nN7P0AT5jf8/140PkATJcARpTS7v245fvE6Py2xtro9v4tqucMs/UARJNOrOAIO4uW2fotu/au3/oGOYnC4PNSfK7v8/fVukePAAADUklEQVR4nO3c21LbMBSFYSuxJVJSUVqDTaEmoS1t3/8F6wNxEluytzvTyd6b9Q+XXPibJaIhHJIEIYQQQgghhBBCCCGEEEIIIYQQQggp6eZ6Qd+vLv24y3twW2rOuZtLP+7yHpwJtQqmCBgWagIGhaqAIaFE4E0UGBAqA46F2oAjoTrgUKgPaOQD46+iAaFGoFEPNOqBRj3QqAca9UCjHmgAZBsRaNQDjXqgUQ806oEGQI4BCCDzvgAIIO8ABJB5AALIPADfE9C4u0s/7vKWAdUvqB6II8ovLAgg8wAEkHkAAsg8AAFkHoAAMg9AAJkHIIDMAxDAuqtFCQTeO3q395yBnyLA7egv8aK5zwAC+L+AK4nAO+3AJPlK/7V0mUA6USyQShQMpBFFAylE4cB5onjgHFEBcJqoAjhFVAKME9UAY8SV+xb+dHnAMDG64K2L/BMoxsAQMQ5cr7dUIh/gmBg9ojWQTOQEHBKnFiQTeQHPiXNAEpEb8JQ4fUSJRH7AI3F+wZYoD3gg0oAzRJ7Ajkg5ol1OHrAhUhecJPIFNkQ6MErkDEySyA9OgsAIkTcwUgQYJOoCBojagCOiPuCAKBK4mgaeEUUC72cmPCXKBG7nhQeiUKAhCDuiUOBqRRE2RLFAmnDtRAJN+w0STbiWCEweHV1Y+Y+Xftx/qSWShFWW5WKJFGGVpRu5RIKwsulmI5c4L+yAcok/qECxxJ/PM0CfHYRSideTxMrb7EBMU6uP2ADfiGmTOmKVe9sSsw6YpsoOag30B2KqkVgV3rdEq5RYlXneEX1r7ImFEmIDjBBlrji8F6uyyHui9z2vfUWVueI5sdoVnbA1nvnqr0mhxMfj+4Zm/1IUb0Rv03QArIkyD2pPrIFl0Zb7/iY88Ylf0exfy7KoP4a8I1A2sVmw5uXZZug7AUo+qO2CuR3zznySV9y/BnkjoFjir5c0xBv75BKfdjSg4HvxqSQNKHrFctYn/V48J0YHVEKc2E8FMbSaknvxqczmzqcCImXABmh1EUNAscQdYcAOKJY4v6LtU0q0VjyxP6gTB9R2b6hKJZY25hsABRMjvhEwy7xQ4s6Ty3cyiR8W9PvPpR8XIYQQQgghhBBCCCGEEEIIIYQQQui99xd9MndVczNj5wAAAABJRU5ErkJggg=="
+                    alt="Abdullah Fazal"
                     width={256}
                     height={256}
-                    className="object-cover w-full h-full"
+                    className="object-contain w-full h-full"
                     unoptimized
                   />
                 </div>
@@ -71,7 +71,7 @@ export default function Home() {
                 </p>
                 <Link
                   href="/about"
-                  className="text-indigo-600 font-semibold hover:text-indigo-800 transition duration-300"
+                  className="text-emerald-600 font-semibold hover:text-emerald-800 transition duration-300"
                 >
                   Learn more about me →
                 </Link>

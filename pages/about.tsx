@@ -10,33 +10,15 @@ export default function About() {
 
   const experience = [
     {
-      title: 'Web Development Intern',
-      company: 'Codsoft',
-      period: 'July 2024 - August 2024',
-      description: 'Worked on a Blogging Platform using PHP and a Task Management Tool using MERN.',
+      title: 'Flutter Intern',
+      company: ' Solution Squares Company',
+      period: 'December 2022 - April 2023',
+      description: ' Worked on real-world Flutter projects, improving app performance by 20% with better state management and UI optimization.',
     },
     {
-      title: 'Artificial Intelligence Intern',
-      company: 'IBM SkillsBuild',
-      period: ' June 2024 - July 2024',
-      description: 'Completed IBM SkillBuild AI Internship, gaining hands-on experience in artificial intelligence and machine learning',
-    },
-    {
-      title: 'Artificial Intelligence Intern',
-      company: 'Codsoft',
-      period: 'June 2024 - July 2024.',
-      description: 'Completed Codsoft AI Internship, working on AI projects and gaining practical experience in machine learning concepts.',
-    },
-    {
-      title: 'ReactJS Internship',
-      company: 'Infolabz IT Services Pvt Ltd.',
-      period: 'June 2024 - July 2024',
-      description: 'Developed a Recipe Finder, Weather App Web Application using ReactJS and APIs.',
-    },
-    {
-      title: 'ReactJS Developer Intern',
+      title: 'Flutter Developer',
       company: 'Generation Next',
-      period: 'January 2025 - present',
+      period: 'June 2023 - present',
       description: 'Currently working on an innovative Job Board project for Generation Next.',
     },
 
@@ -56,10 +38,10 @@ export default function About() {
     <>
       <Head>
         <title>About Me | Abdullah Fazal Portfolio</title>
-        <meta name="description" content="Learn more about Piyush Chauhan, a ReactJS developer with experience in modern web technologies." />
+        <meta name="description" content="Learn more about Abdullah Fazal, a Flutter developer with experience in modern technologies." />
       </Head>
       <main className="flex flex-col min-h-screen pt-20">
-        <section className="py-20 bg-gradient-to-r from-blue-800 to-indigo-900 text-white">
+        <section className="py-20 bg-emerald-600 text-gray-100">
           <div className="container mx-auto px-6">
             <h1 className="text-4xl font-bold mb-4">About Me</h1>
             <p className="text-xl">Aspiring ReactJS developer with hands-on experience in building scalable web applications.</p>
