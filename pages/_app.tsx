@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <div className="min-h-screen bg-white text-gray-800 antialiased">
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <meta name="description" content="John Doe's portfolio - Full Stack Developer specializing in modern web technologies" />
+          <meta name="description" content="Abdullah Fazal's portfolio - Full Stack Developer specializing in modern web technologies" />
           <title>Abdullah Fazal | Portfolio</title>
         </Head>
         <Navbar />

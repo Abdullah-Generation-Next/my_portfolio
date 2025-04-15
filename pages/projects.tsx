@@ -89,7 +89,7 @@ export default function Projects() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>Projects | Piyush Chauhan Portfolio</title>
+        <title>Projects | Abdullah Fazal Portfolio</title>
         <meta name="description" content="Explore my portfolio of web development projects, including full-stack applications, web apps, and more." />
       </Head>
       <main className="flex-grow pt-20">

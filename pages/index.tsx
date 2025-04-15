@@ -22,7 +22,7 @@ export default function Home() {
                   Flutter Developer
                 </h2>
                 <p className="text-lg mb-8">
-                  Passionate about building scalable web applications using ReactJS and the MERN stack, with a strong focus on performance, user experience, and modern web technologies. Constantly exploring new tools and best practices to enhance development efficiency and scalability.                </p>
+                  Passionate about building high-performance cross-platform mobile applications using Flutter and Dart, with a strong focus on smooth user experience, scalability, and clean architecture. Continuously exploring new packages, tools, and best practices to enhance development speed, maintainability, and app responsiveness.                </p>
                 <div className="flex space-x-4">
                   <Link
                     href="/contact"
@@ -61,10 +61,13 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 mb-10 md:mb-0">
                 <p className="text-lg text-gray-700 mb-6">
-                  I am a ReactJS developer with experience in frontend and backend technologies. I have completed internships at IBM SkillBuild, Codsoft, and Infolabz, building applications using ReactJS, MERN stack, and AI solutions.
+                  Hi! I'm a passionate Flutter developer who loves turning ideas into smooth, beautiful, and high-performing mobile apps. I specialize in building cross-platform applications using Flutter & Dart, ensuring a seamless user experience on both Android and iOS.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Recently, I developed an Expense Tracker using ReactJS and Firebase for real-time financial management.
+                  From integrating Firebase for real-time features to working with REST APIs, SQLite, and tools like GetX and Provider for state management — I enjoy every part of the app development journey. Whether it’s an education app, a task manager, or something creative, I focus on writing clean, scalable code that delivers real value.
+                </p>
+                <p className="text-lg text-gray-700 mb-6">
+                  I'm always learning and exploring new ways to improve performance, design, and user experience. Let’s build something amazing together!
                 </p>
                 <Link
                   href="/about"
@@ -77,19 +80,19 @@ export default function Home() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-indigo-100 p-4 rounded-lg">
                     <h3 className="font-bold text-xl mb-2">Frontend</h3>
-                    <p>ReactJS, Next.js, Bootstrap, TailwindCSS</p>
+                    <p>Flutter</p>
                   </div>
                   <div className="bg-blue-100 p-4 rounded-lg">
-                    <h3 className="font-bold text-xl mb-2">Backend</h3>
-                    <p>Node.js, Express, MongoDB, Firebase</p>
+                    <h3 className="font-bold text-xl mb-2">DataBase</h3>
+                    <p>SQL Lite, Firebase</p>
                   </div>
                   <div className="bg-purple-100 p-4 rounded-lg">
                     <h3 className="font-bold text-xl mb-2">Projects</h3>
-                    <p>Expense Tracker, Blogging Platform, Task Management Tool & more</p>
+                    <p>Vakalat, Surat District Bar Association, Manjha,Express Courier & more</p>
                   </div>
                   <div className="bg-green-100 p-4 rounded-lg">
                     <h3 className="font-bold text-xl mb-2">Tools</h3>
-                    <p>Git, GitHub, REST APIs</p>
+                    <p>Android Studio, Postman, Git, GitHub, Vs Code</p>
                   </div>
                 </div>
               </div>

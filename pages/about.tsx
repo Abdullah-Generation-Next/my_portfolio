@@ -48,7 +48,7 @@ export default function About() {
       institution: 'Veer Narmad South Gujarat University,Surat',
       year: '2021',
       // year: '2025 - Present',
-      cgpa: '7.85/10',
+      cgpa: '7.37/10',
     },
   ];
 
@@ -72,13 +72,16 @@ export default function About() {
               <div>
                 <h2 className="text-3xl font-bold mb-6">My Story</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  I am a dedicated ReactJS developer with experience in frontend and backend technologies. My journey includes internships at IBM SkillBuild, Codsoft, Infolabz and Generation Next, where I built applications using ReactJS, MERN stack, and AI-driven solutions.
+                  I am a passionate Flutter developer with a strong foundation in building cross-platform mobile applications. My journey includes hands-on experience through real-world projects where I focused on delivering responsive, scalable, and user-centric apps using Flutter and Dart.
                 </p>
                 <p className="text-lg text-gray-700 mb-4">
-                  Recently, I developed an Expense Tracker using ReactJS and Firebase for real-time expense management. I thrive on building scalable web applications that provide seamless user experiences.
+                  Over time, I’ve worked on several impactful projects like Vakalat, Manjha, Express Courier, and the Surat District Bar Association App each one refining my skills in UI/UX, API integration, Firebase services, and state management using GetX and Provider.
+                </p>
+                <p className="text-lg text-gray-700 mb-4">
+                  One of my favorite things about Flutter is how it empowers me to bring creative ideas to life with a single codebase. I enjoy crafting pixel-perfect designs and optimizing performance to ensure a smooth experience on both Android and iOS platforms.
                 </p>
                 <p className="text-lg text-gray-700">
-                  Beyond coding, I enjoy sketching, traveling, and participating in technical workshops to stay updated with the latest industry trends.
+                  When I’m not coding, you’ll find me sketching, traveling, or attending tech meetups and workshops to keep up with the latest trends in mobile development.
                 </p>
               </div>
               <div>
