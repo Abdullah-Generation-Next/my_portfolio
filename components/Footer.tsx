@@ -6,13 +6,13 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-gray-300">
+    <footer className="bg-gray-900 text-gray-100">
       <div className="container mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and brief description */}
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center mb-4">
-              <div className="w-10 h-10 mr-2 rounded-full bg-emerald-600 flex items-center justify-center text-white">
+              <div className="w-10 h-10 mr-2 rounded-full bg-emerald-400 flex items-center justify-center text-white">
                 AF
               </div>
               <span className="font-bold text-xl">Abdullah Fazal</span>

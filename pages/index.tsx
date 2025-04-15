@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       <main className="flex flex-col min-h-screen pt-20">
         {/* Hero Section */}
-        <section className="bg-emerald-600 text-gray-100 py-20">
+        <section className="bg-gray-900 text-gray-100 py-20">
           <div className="container mx-auto px-6">
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 mb-10 md:mb-0">
@@ -26,7 +26,7 @@ export default function Home() {
                 <div className="flex space-x-4">
                   <Link
                     href="/contact"
-                    className="bg-gray-100 hover:bg-gray-50 text-emerald-700 px-6 py-3 rounded-md font-semibold transition duration-300"
+                    className="bg-emerald-500 hover:bg-emerald-600 text-gray-900 px-6 py-3 rounded-md font-semibold transition duration-300"
                   >
                     Contact Me
                   </Link>

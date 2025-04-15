@@ -41,7 +41,7 @@ export default function About() {
         <meta name="description" content="Learn more about Abdullah Fazal, a Flutter developer with experience in modern technologies." />
       </Head>
       <main className="flex flex-col min-h-screen pt-20">
-        <section className="py-20 bg-emerald-600 text-gray-100">
+        <section className="py-20 bg-gray-900 text-gray-100">
           <div className="container mx-auto px-6">
             <h1 className="text-4xl font-bold mb-4">About Me</h1>
             <p className="text-xl">Aspiring ReactJS developer with hands-on experience in building scalable web applications.</p>

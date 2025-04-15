@@ -93,7 +93,7 @@ export default function Projects() {
         <meta name="description" content="Explore my portfolio of web development projects, including full-stack applications, web apps, and more." />
       </Head>
       <main className="flex-grow pt-20">
-        <section className="py-20 bg-gradient-to-r from-blue-800 to-indigo-900 text-white">
+        <section className="py-20 bg-gray-900 text-gray-100">
           <div className="container mx-auto px-6">
             <h1 className="text-4xl font-bold mb-4">My Projects</h1>
             <p className="text-xl">Explore my latest work and creative solutions.</p>

@@ -45,7 +45,7 @@ const Navbar = () => {
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         isScrolled 
           ? 'bg-white/95 backdrop-blur-sm shadow-lg py-3' 
-          : 'bg-emerald-700/70 backdrop-blur-sm py-5'
+          : 'bg-gray-800/70 backdrop-blur-sm py-5'
       }`}
     >
       <div className="container mx-auto px-6">
@@ -55,13 +55,13 @@ const Navbar = () => {
             href="/"
             className="font-bold text-2xl group flex items-center"
           >
-            <div className="w-10 h-10 mr-2 rounded-full bg-emerald-600 flex items-center justify-center text-gray-100">
+            <div className="w-10 h-10 mr-2 rounded-full bg-emerald-400 flex items-center justify-center text-gray-100">
               AF
             </div>
             {isScrolled ? (
               <span className="text-emerald-600 group-hover:text-emerald-800 transition-colors duration-300">Abdullah Fazal</span>
             ) : (
-              <span className="text-gray-100 group-hover:text-emerald-300 transition-colors duration-300">Abdullah Fazal</span>
+              <span className="text-gray-100 group-hover:text-emerald-400 transition-colors duration-300">Abdullah Fazal</span>
             )}
           </Link>
 
@@ -81,16 +81,16 @@ const Navbar = () => {
                     className={`relative px-4 py-2 rounded-md font-medium transition duration-300 ${
                       isActive(item.path)
                         ? isScrolled 
-                          ? 'text-emerald-600 bg-emerald-50' 
+                          ? 'text-emerald-400 bg-emerald-100' 
                           : 'text-white bg-white/10'
                         : isScrolled 
-                          ? 'text-gray-800 hover:text-indigo-600 hover:bg-emerald-50' 
-                          : 'text-gray-200 hover:text-white hover:bg-white/10'
+                          ? 'text-gray-800 hover:text-emerald-400 hover:bg-emerald-100' 
+                          : 'text-gray-100 hover:text-emerald-400 hover:bg-white/10'
                     }`}
                   >
                     {item.name}
                     {isActive(item.path) && (
-                      <span className={`absolute bottom-0 left-0 w-full h-0.5 ${isScrolled ? 'bg-emerald-600' : 'bg-white'}`}></span>
+                      <span className={`absolute bottom-0 left-0 w-full h-0.5 ${isScrolled ? 'bg-emerald-400' : 'bg-white'}`}></span>
                     )}
                   </Link>
                 </li>
@@ -145,8 +145,8 @@ const Navbar = () => {
                 href={item.path}
                 className={`font-medium px-4 py-3 rounded-md ${
                   isActive(item.path)
-                    ? 'text-emerald-600 bg-emerald-50'
-                    : 'text-gray-800 hover:text-emerald-600 hover:bg-emerald-50'
+                    ? 'text-emerald-400 bg-emerald-100'
+                    : 'text-gray-800 hover:text-emerald-400 hover:bg-emerald-100'
                 }`}
                 onClick={closeMenu}
               >
